@@ -31,14 +31,14 @@ app.get('/',(req,res) =>{
 app.get('/about',(req,res) =>{
     res.render('about',{
         name:'about us',
-        title:'About Us Page',
+        title:'About Us',
         author:'Kuntal Biswas'
     })
 })
 app.get('/help',(req,res) =>{
     res.render('help',{
         name:'help us',
-        title:'Help Us Page',
+        title:'Help Us',
         author:'Kuntal Biswas'
     })
 })
